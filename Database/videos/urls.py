@@ -10,3 +10,4 @@ urlpatterns = [
     # path("", include(router.urls)),
     path("videos/", views.VideoViewSet.as_view(), name="video-list"),
 ]
+# this file is used to direct where the urls are going inside the videos app

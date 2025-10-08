@@ -14,3 +14,4 @@ class VideoViewSet(viewsets.ModelViewSet):
 
 
 # Create your views here.
+# this what will handle the requests coming from the frontend and send responses back

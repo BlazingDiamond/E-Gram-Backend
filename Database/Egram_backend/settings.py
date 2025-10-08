@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-
+# any new app is put under installed_apps, and most general changes to the logic will happen here
+# FWI this is the main project area, 'videos' is the app created inside this project
 # Application definition
 
 INSTALLED_APPS = [

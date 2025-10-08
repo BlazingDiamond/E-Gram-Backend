@@ -21,6 +21,7 @@ from django.views.generic import RedirectView
 from django.conf import settings
 from django.conf.urls.static import static
 
+# directs where the urls are going inside the files
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("Egram_backend.urls")),
